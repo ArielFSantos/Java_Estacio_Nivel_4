@@ -993,3 +993,58 @@ java.lang.IllegalArgumentException: Registered component class cannot be null.
 [2023-10-27T15:10:41.949830-03:00] [GF 7.0.6] [WARNING] [] [jakarta.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=65 _ThreadName=admin-listener(4)] [levelValue: 900] [[
   Context path from ServletContext:  differs from path from bundle: /]]
 
+[2023-10-27T15:13:49.643409-03:00] [GF 7.0.6] [INFO] [NCLS-REST-00001] [jakarta.enterprise.admin.rest] [tid: _ThreadID=64 _ThreadName=admin-listener(3)] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2023-10-27T15:19:35.318006-03:00] [GF 7.0.6] [INFO] [NCLS-CORE-00092] [jakarta.enterprise.system.core] [tid: _ThreadID=239 _ThreadName=Thread-31] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2023-10-27T15:19:35.321152-03:00] [GF 7.0.6] [INFO] [] [jakarta.enterprise.logging.stdout] [tid: _ThreadID=239 _ThreadName=Thread-31] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2023-10-27T15:19:35.325103-03:00] [GF 7.0.6] [INFO] [NCLS-JMX-00002] [jakarta.enterprise.system.jmx] [tid: _ThreadID=239 _ThreadName=Thread-31] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2023-10-27T15:19:35.325103-03:00] [GF 7.0.6] [INFO] [NCLS-JMX-00001] [jakarta.enterprise.system.jmx] [tid: _ThreadID=239 _ThreadName=Thread-31] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2023-10-27T15:19:35.368378-03:00] [GF 7.0.6] [INFO] [] [org.glassfish.web.loader.WebappClassLoader] [tid: _ThreadID=243 _ThreadName=RunLevelControllerThread-1698430775329] [levelValue: 800] [[
+  close(), this:
+org.glassfish.web.loader.WebappClassLoader@7e1084ad[name=], urls=[
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/classes/
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.6-SNAPSHOT.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.6.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/domains/domain1/generated/ejb/__admingui//
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/extra/woodstock-webui-jsf-suntheme-6.0.1.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/extra/dojo-ajax-nodemo-1.12.4.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/extra/woodstock-webui-jsf-6.0.1.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/extra/json-2.0.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/extra/prototype-1.7.3.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/lib/install/applications/__admingui/WEB-INF/extra/commons-io-2.12.0.jar
+file:/C:/Users/ariel/Documents/GitHub/Mundo_3_Estacio/Java_Estacio_Nivel_4/Interface_Web/glassfish/domains/domain1/generated/__admingui/
+][delegate=true, context=, status=RUNNING, antiJARLocking=false, securityManager=false, packageDefinitionSecurityEnabled=false, repositories=RepositoryManager[WEB-INF/classes/], notFound.size=624, pathTimestamps.size=2, resourceEntryCache.size=4]]]
+
+[2023-10-27T15:19:35.423553-03:00] [GF 7.0.6] [SEVERE] [AS-WEB-UTIL-00016] [org.glassfish.web.loader.ReferenceCleaner] [tid: _ThreadID=243 _ThreadName=RunLevelControllerThread-1698430775329] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of [class java.lang.ThreadLocal (toString: java.lang.ThreadLocal@7b54992)] and a value of [class org.glassfish.admingui.theme.AdminguiThemeContext (toString: org.glassfish.admingui.theme.AdminguiThemeContext@4cde5792)] but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2023-10-27T15:19:35.423553-03:00] [GF 7.0.6] [SEVERE] [AS-WEB-UTIL-00016] [org.glassfish.web.loader.ReferenceCleaner] [tid: _ThreadID=243 _ThreadName=RunLevelControllerThread-1698430775329] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of [class java.lang.ThreadLocal (toString: java.lang.ThreadLocal@7b54992)] and a value of [class org.glassfish.admingui.theme.AdminguiThemeContext (toString: org.glassfish.admingui.theme.AdminguiThemeContext@4cde5792)] but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2023-10-27T15:19:35.424550-03:00] [GF 7.0.6] [SEVERE] [AS-WEB-UTIL-00016] [org.glassfish.web.loader.ReferenceCleaner] [tid: _ThreadID=243 _ThreadName=RunLevelControllerThread-1698430775329] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of [class java.lang.ThreadLocal (toString: java.lang.ThreadLocal@7b54992)] and a value of [class org.glassfish.admingui.theme.AdminguiThemeContext (toString: org.glassfish.admingui.theme.AdminguiThemeContext@4cde5792)] but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2023-10-27T15:19:35.426546-03:00] [GF 7.0.6] [SEVERE] [AS-WEB-UTIL-00016] [org.glassfish.web.loader.ReferenceCleaner] [tid: _ThreadID=243 _ThreadName=RunLevelControllerThread-1698430775329] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of [class java.lang.ThreadLocal (toString: java.lang.ThreadLocal@7b54992)] and a value of [class org.glassfish.admingui.theme.AdminguiThemeContext (toString: org.glassfish.admingui.theme.AdminguiThemeContext@4cde5792)] but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2023-10-27T15:19:35.426546-03:00] [GF 7.0.6] [SEVERE] [AS-WEB-UTIL-00016] [org.glassfish.web.loader.ReferenceCleaner] [tid: _ThreadID=243 _ThreadName=RunLevelControllerThread-1698430775329] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of [class java.lang.ThreadLocal (toString: java.lang.ThreadLocal@7b54992)] and a value of [class org.glassfish.admingui.theme.AdminguiThemeContext (toString: org.glassfish.admingui.theme.AdminguiThemeContext@4cde5792)] but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2023-10-27T15:19:35.461434-03:00] [GF 7.0.6] [INFO] [] [jakarta.enterprise.logging.stdout] [tid: _ThreadID=241 _ThreadName=RunLevelControllerThread-1698430775327] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
+[2023-10-27T15:19:35.475800-03:00] [GF 7.0.6] [INFO] [NCLS-CORE-00013] [jakarta.enterprise.system.core] [tid: _ThreadID=239 _ThreadName=Thread-31] [levelValue: 800] [[
+  Shutdown procedure finished]]
+
+[2023-10-27T15:19:35.476798-03:00] [GF 7.0.6] [INFO] [] [jakarta.enterprise.logging.stdout] [tid: _ThreadID=23 _ThreadName=GlassFish Shutdown Hook] [levelValue: 800] [[
+  Completed shutdown of GlassFish runtime]]
+
