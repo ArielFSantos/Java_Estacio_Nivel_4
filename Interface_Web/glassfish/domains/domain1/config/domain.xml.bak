@@ -71,6 +71,7 @@
       <resource-ref ref="concurrent/__defaultManagedExecutorService"></resource-ref>
       <resource-ref ref="concurrent/__defaultManagedScheduledExecutorService"></resource-ref>
       <resource-ref ref="concurrent/__defaultManagedThreadFactory"></resource-ref>
+      <resource-ref ref="jdbc/sample"></resource-ref>
     </server>
   </servers>
   <nodes>
