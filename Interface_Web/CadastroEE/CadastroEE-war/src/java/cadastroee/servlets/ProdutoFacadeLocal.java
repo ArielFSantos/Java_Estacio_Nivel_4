@@ -10,10 +10,6 @@ package cadastroee.servlets;
  */
 class ProdutoFacadeLocal {
 
-    MeuServlet.Produto buscarProdutoPorId(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
     MeuServlet.Produto getProduto(int id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
@@ -25,4 +21,9 @@ class ProdutoFacadeLocal {
     void inserirProduto(MeuServlet.Produto produto) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+    MeuServlet.Produto buscarProdutoPorId(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
 }
